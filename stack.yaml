@@ -15,7 +15,7 @@ packages:
 
 extra-deps: 
     - git: https://github.com/kdavids4/Data-Digest-CRC32C
-      commit: 7f49445a3ec54cd08eac9a55cbe6237443da3d4e
+      commit: f9add990ece2c7ced8ead75c82ed0982de17cb8d
 
 # For Mac OS X, whose linker doesn't use this path by default
 # unless you run `xcode-select --install`.
