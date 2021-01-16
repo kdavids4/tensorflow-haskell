@@ -13,9 +13,9 @@ packages:
 - tensorflow-records-conduit
 - tensorflow-test
 
-extra-deps:
-- snappy-framing-0.1.2
-- snappy-0.2.0.2
+extra-deps: 
+    - git: https://github.com/kdavids4/Data-Digest-CRC32C
+      commit: 7f49445a3ec54cd08eac9a55cbe6237443da3d4e
 
 # For Mac OS X, whose linker doesn't use this path by default
 # unless you run `xcode-select --install`.
